@@ -22,3 +22,10 @@ Terminology
 - git diff (filename) --- Shows the differences between the working directory and the staging area for the specified file.
 - git checkout (filename) --- Discard changes in the specified file in the working directory and revert it to the state it was in at the last commit.
 - git checkout (copied hashcode) --- move the HEAD pointer to a specific commit identified by its hash code. This doesn't exactly "undo" a previous commit; it moves your repository to the state it was in at that commit, potentially discarding commits after it.
+
+# Steps to follow when updating an existing file for example README.md
+1- git status
+2- git add README.md
+3- git status
+4- git commit -m "Commit Message"
+5- git push origin main
