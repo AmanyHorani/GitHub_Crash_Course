@@ -24,8 +24,8 @@ Terminology
 - git checkout (copied hashcode) --- move the HEAD pointer to a specific commit identified by its hash code. This doesn't exactly "undo" a previous commit; it moves your repository to the state it was in at that commit, potentially discarding commits after it.
 
 # Steps to follow when updating an existing file for example README.md
-1- git status
-2- git add README.md
-3- git status
-4- git commit -m "Commit Message"
-5- git push origin main
+- git status
+- git add README.md
+- git status
+- git commit -m "Commit Message"
+- git push origin main
